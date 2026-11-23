@@ -19,7 +19,7 @@ Walmart operates stores of different types and sizes, and each store produces a 
 * stores: 45 stores with type (A, B, C) and size
 * test: provided in the Kaggle dataset but not used in this analysis
 
-Only `dataset/stores.csv` is included here because the other files are large. Download the rest from the Kaggle link above.
+All four CSV files are included in the 'dataset/' folder.
 
 ## Tech Stack
 
@@ -73,8 +73,8 @@ Previous-week sales dominates the Random Forest feature importance at about 81%,
 
 ## How to Run
 
-1. Open `walmart\_sales\_forecasting\_pyspark.ipynb` in Google Colab.
-2. Download the dataset from Kaggle and upload `train`, `features`, and `stores` CSV files when the upload cell runs. The notebook expects the original Kaggle file names, for example `stores - Walmart Sales Forecast.csv`. `dataset/stores.csv` is renamed, so rename it back or edit the path.
+1. Open `walmart\\\\\\\\\\\\\\\_sales\\\\\\\\\\\\\\\_forecasting\\\\\\\\\\\\\\\_pyspark.ipynb` in Google Colab.
+2. Upload the four CSV files from the 'dataset/' folder when the upload cell runs. The notebook expects the original Kaggle file names, for example `stores - Walmart Sales Forecast.csv`. `dataset/stores.csv` is renamed, so rename it back or edit the path.
 3. Run the cells in order. Outputs are already saved in the notebook if you only want to read the results.
 
 ## My Contribution
